@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <article class="profile-card" data-testid="test-profile-card">
+            <header>
+                <h2 data-testid="test-user-name">Mustapha Mustapha</h2>
+                <p>Software Engineer</p>
+            </header>
+
+            <figure>
+                <img src="./assets/Mustapha.jpg" alt="Mustapha Mustapha" data-testid="test-user-avatar">
+            </figure>
+
+            <p data-testid="test-user-bio">I’m a frontend developer passionate about creating responsive, accessible web interfaces using modern  frameworks such as react next.js.</p>
+
+            <p data-testid="test-user-time">Current Time: <span id="userTime"></span></p>
+
+            <nav aria-label="Social Links">
+                <ul data-testid="test-user-social-links" class="social-links">
+                    <li><a href="https://x.com/Boy_Mexy" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+                    <li><a href="https://github.com/Mustaphamexy/" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+                    <li><a href="https://ng.linkedin.com/in/mustapha-mustapha-tunde" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+                </ul>
+            </nav>
+
+            <section>
+                <div>
+                    <h3>Hobbies</h3>
+                    <ul data-testid="test-user-hobbies">
+                        <li>Coding</li>
+                        <li>Reading</li>
+                        <li>Traveling</li>
+                    </ul>
+
+                </div>
+
+                <div>
+                    <h3>Dislikes</h3>
+                    <ul data-testid="test-user-dislikes">
+                        <li>Procrastination</li>
+                        <li>Bad Days</li>
+                        <li>Slow internet</li>
+                    </ul>
+                </div>
+            </section>
+            
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
