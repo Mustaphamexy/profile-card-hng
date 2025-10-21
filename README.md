@@ -1,4 +1,4 @@
-# 🪪 Profile Card Component
+# Profile Card Component
 
 A responsive personal portfolio built with HTML, CSS, and Vanilla JavaScript featuring a profile card, contact form, and about page.
 
@@ -28,22 +28,22 @@ A responsive personal portfolio built with HTML, CSS, and Vanilla JavaScript fea
 
 ---
 
-## 📄 Pages
+## Pages
 
-### 🏠 Home (`index.html`)
+### Home (`index.html`)
 - Profile card with avatar and bio  
 - Live time counter (updates every second)  
 - Social links (Twitter, GitHub, LinkedIn)  
 - Hobbies and dislikes sections  
 
-### ✉️ Contact (`contact.html`)
+### Contact (`contact.html`)
 - Full name (min 2 characters)  
 - Email (valid format required)  
 - Subject (min 3 characters)  
 - Message (min 10 characters)  
 - Real-time validation with error messages  
 
-### 👤 About (`about.html`)
+### About (`about.html`)
 - Professional bio  
 - Program goals  
 - Areas for improvement  
@@ -51,7 +51,7 @@ A responsive personal portfolio built with HTML, CSS, and Vanilla JavaScript fea
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 - Semantic HTML (`<main>`, `<section>`, `<nav>`, `<article>`)  
 - ARIA attributes for screen readers  
 - Keyboard navigation support  
@@ -60,14 +60,14 @@ A responsive personal portfolio built with HTML, CSS, and Vanilla JavaScript fea
 
 ---
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 - **Mobile:** `< 480px` (single column)  
 - **Tablet:** `480px - 768px` (optimized layout)  
 - **Desktop:** `> 768px` (multi-column)  
 
 ---
 
-## 🛠 Technologies
+## Technologies
 - **HTML5**  
 - **CSS3 (Flexbox & Grid)**  
 - **Vanilla JavaScript (ES6+)**  
