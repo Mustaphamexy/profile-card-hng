@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Mustapha</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar" data-testid="test-navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" data-testid="test-nav-home">Mustapha</a>
+            </div>
+            <ul class="nav-menu" data-testid="test-nav-menu">
+                <li><a href="index.html" class="nav-link" data-testid="test-nav-link-home">Home</a></li>
+                <li><a href="about.html" class="nav-link " data-testid="test-nav-link-about">About Me</a></li>
+                <li><a href="contact.html" class="nav-link active" data-testid="test-nav-link-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="contact-main" data-testid="test-contact-page">
+        <div class="contact-container">
+            <h1>Contact Mustapha</h1>
+            <p class="contact-intro">Have a question for <strong>Mustapha</strong>? Feel free to reach out!</p>
+
+            <form action="#" class="contact-form" id="contactForm" data-testid="test-contact-form" novalidate>
+                <div class="form-group">
+                    <label for="fullName">FullName</label>
+                    <input 
+                        type="text" 
+                        id="fullName" 
+                        name="fullName" 
+                        placeholder="Enter your full name"
+                        data-testid="test-contact-name"
+                        required
+                        aria-describedby="fullNameError"
+                    >
+                    <span class="error-message" id="fullNameError" data-testid="test-contact-error-fullName" role="alert"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="Enter your email"
+                        data-testid="test-contact-email"
+                        required
+                        aria-describedby="emailError"
+                    >
+                    <span class="error-message" id="emailError" data-testid="test-contact-error-email" role="alert"></span>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input 
+                        type="text" 
+                        id="subject" 
+                        name="subject" 
+                        placeholder="What is this about?"
+                        data-testid="test-contact-subject"
+                        required
+                        aria-describedby="subjectError"
+                    >
+                    <span class="error-message" id="subjectError" data-testid="test-contact-error-subject" role="alert"></span>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea 
+                        id="message" 
+                        name="message" 
+                        placeholder="Write your message here "
+                        rows="6"
+                        data-testid="test-contact-message"
+                        required
+                        aria-describedby="messageError"
+                    ></textarea>
+                    <span class="error-message" id="messageError" data-testid="test-contact-error-message" role="alert"></span>
+                </div>
+                <button 
+                    type="submit" 
+                    class="submit-btn"
+                    data-testid="test-contact-submit"
+                >
+                    Send Message
+                </button>
+                <div class="success-message" id="successMessage" data-testid="test-contact-success" role="alert" aria-live="polite"></div>
+
+            </form>
+
+        </div>
+    </main>
+    <footer class="footer" data-testid="test-footer">
+        <p>&copy; 2025 Mustapha Mustapha. All rights reserved.</p>
+    </footer>
+
+    <script src="javascript/contact.js"></script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 # 🪪 Profile Card Component
 
-A simple, accessible, and responsive **Profile Card** built using **HTML, CSS, and Vanilla JavaScript**.  
-The component displays a user’s profile information — name, bio, avatar, hobbies, dislikes, and social links — along with a live time display in milliseconds.
+A responsive personal portfolio built with HTML, CSS, and Vanilla JavaScript featuring a profile card, contact form, and about page.
+
 
 ---
 
@@ -12,6 +12,10 @@ The component displays a user’s profile information — name, bio, avatar, hob
 
 - **Responsive Layout:**  
   Looks great on mobile, tablet, and desktop using modern CSS (Flexbox and media queries).
+
+
+- **Validated Contact Form:**  
+  Real-time validation with accessible error messaging
 
 - **Accessible Design:**  
   Built with semantic HTML elements (`<article>`, `<header>`, `<section>`, `<figure>`, `<ul>`, `<nav>`) and proper `alt` attributes for images.
@@ -24,24 +28,47 @@ The component displays a user’s profile information — name, bio, avatar, hob
 
 ---
 
-## Built With
+## 📄 Pages
 
-- **HTML5** – Semantic structure for accessibility.  
-- **CSS3** – Styling and responsiveness using Flexbox.  
-- **JavaScript (Vanilla)** – Handles live time updates and interactivity.
+### 🏠 Home (`index.html`)
+- Profile card with avatar and bio  
+- Live time counter (updates every second)  
+- Social links (Twitter, GitHub, LinkedIn)  
+- Hobbies and dislikes sections  
+
+### ✉️ Contact (`contact.html`)
+- Full name (min 2 characters)  
+- Email (valid format required)  
+- Subject (min 3 characters)  
+- Message (min 10 characters)  
+- Real-time validation with error messages  
+
+### 👤 About (`about.html`)
+- Professional bio  
+- Program goals  
+- Areas for improvement  
+- Personal reflections  
 
 ---
 
-## Sections Overview
+## ♿ Accessibility
+- Semantic HTML (`<main>`, `<section>`, `<nav>`, `<article>`)  
+- ARIA attributes for screen readers  
+- Keyboard navigation support  
+- WCAG AA contrast ratios  
+- Form labels properly linked  
 
-- **Profile Container** – Wraps the entire card content.  
-- **User Name & Bio** – Displays basic information.  
-- **Current Time** – Shows `Date.now()` in milliseconds.  
-- **Avatar** – User photo with an accessible `alt` tag.  
-- **Social Links** – List of connected social platforms.  
-- **Hobbies & Dislikes** – Organized lists showing user interests and dislikes.
+---
 
-## Responsive Design
+## 📱 Responsive Breakpoints
+- **Mobile:** `< 480px` (single column)  
+- **Tablet:** `480px - 768px` (optimized layout)  
+- **Desktop:** `> 768px` (multi-column)  
 
--  On small screens, elements stack vertically for readability.
-- On larger screens, the avatar is placed beside the text content for a clean, professional layout.
+---
+
+## 🛠 Technologies
+- **HTML5**  
+- **CSS3 (Flexbox & Grid)**  
+- **Vanilla JavaScript (ES6+)**  
+- **Google Fonts (Poppins)**  

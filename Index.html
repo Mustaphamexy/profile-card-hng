@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Card</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mustapha | Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <nav class="navbar" data-testid="test-navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" data-testid="test-nav-home">Mustapha</a>
+            </div>
+            <ul class="nav-menu" data-testid="test-nav-menu">
+                <li><a href="index.html" class="nav-link active" data-testid="test-nav-link-home">Home</a></li>
+                <li><a href="about.html" class="nav-link" data-testid="test-nav-link-about">About Me</a></li>
+                <li><a href="contact.html" class="nav-link" data-testid="test-nav-link-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <main>
         <article class="profile-card" data-testid="test-profile-card">
             <header>
@@ -15,10 +29,10 @@
             </header>
 
             <figure>
-                <img src="./assets/Mustapha.jpg" alt="Mustapha Mustapha" data-testid="test-user-avatar">
+                <img src="./assets/mustapha.jpg" alt="Mustapha Mustapha" data-testid="test-user-avatar">
             </figure>
 
-            <p data-testid="test-user-bio">I’m a frontend developer passionate about creating responsive, accessible web interfaces using modern frameworks and libraries such as React and Next.js.</p>
+            <p data-testid="test-user-bio">I'm a frontend developer passionate about creating responsive, accessible web interfaces using modern frameworks and libraries such as React and Next.js.</p>
 
             <p data-testid="test-user-time">Current Time: <span id="userTime"></span></p>
 
@@ -38,7 +52,6 @@
                         <li>Reading</li>
                         <li>Traveling</li>
                     </ul>
-
                 </div>
 
                 <div>
@@ -50,9 +63,13 @@
                     </ul>
                 </div>
             </section>
-            
         </article>
     </main>
-    <script src="script.js"></script>
+
+    <footer class="footer" data-testid="test-footer">
+        <p>&copy; 2025 Mustapha Mustapha. All rights reserved.</p>
+    </footer>
+
+    <script src="javascript/script.js"></script>
 </body>
 </html>
